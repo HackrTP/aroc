@@ -32,12 +32,6 @@ fi
 
 sleep 2
 
-local i
-      for i in $(seq 5 -1 1); do
-        echo -n "\rStarting in $i second(s) Press Ctrl+C now to cancel...  " >&2
-        sleep 1
-      done
-
 echo
 echo
 echo
